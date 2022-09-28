@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height:100%;
+}
+body {
+    height: 100%;
+    background-image: linear-gradient(#789f35, #226666);
+}
+
+.game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    background-color: #aa3939;
+    border-radius: 5px;;
+}
